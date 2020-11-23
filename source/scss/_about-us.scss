@@ -1,0 +1,105 @@
+/*==============================
+          About
+===============================*/
+
+.about {
+    width: 100%;
+    height: auto;
+    color: #898989;
+    padding-bottom: 80px;
+
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        text-transform: uppercase;
+        background-image: linear-gradient(to right, #7ed56f, #28b485);
+        color: transparent;
+        transition: all .2s;
+        display: inline-block;
+        -webkit-background-clip: text;
+
+        &:hover {
+            transform: skewY(2deg) skewX(15deg) scale(1.1);
+            text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+        }
+    }
+    h4 {
+        font-size: 22px;
+        font-weight: 700;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        text-transform: uppercase;
+    }
+    h5 {
+        color: #000000;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 30px;
+        text-transform: capitalize;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .figure-img {
+        width: 100%;
+        height: 600px;
+        padding: 25px;
+        padding-right: 0;
+        object-fit: cover;
+        position: relative;
+
+        &:hover {
+            height: 700px;
+        }
+    }
+    .right-side {
+        padding-left: 0;
+    }
+
+    .btn-warning {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        background-color: #2d720d;
+        padding: 10px 20px;
+        margin: 30px 0;
+        margin-left: 20px;
+        margin-right: 15px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        border: none;
+
+        &:hover {
+            border: 2px solid #ffc107;
+            background-color: transparent;
+            color: #ffc107;
+            text-decoration: none;
+            width: 300px;
+            height: 50px;
+            font-size: 18px;
+        }
+        &:not(:disabled):not(.disabled):active:focus {
+            box-shadow: none;
+        }
+    }
+
+    .box-1 {
+        position: absolute;
+        top: 18%;
+        width: 25px;
+        height: 414px;
+        background: #2d720d;
+    }
+
+    .about-middle {
+        border: 1px solid lightgray;
+        border-left: none;
+        padding: 40px 40px;
+    }
+}

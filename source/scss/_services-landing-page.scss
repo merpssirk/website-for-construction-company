@@ -1,0 +1,52 @@
+/*=========================
+       Service-Page
+=========================*/
+
+#services {
+    padding-top: 75px;
+    padding-bottom: 100px;
+
+    .career-img {
+        width: 320px;
+        object-fit: cover;
+        height: 320px;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.09);
+    }
+
+    h3 {
+        color: #000000;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: left;
+        padding-bottom: 50px;
+        margin-top: -4px;
+        text-transform: capitalize;
+    }
+    .main-content {
+        padding-bottom: 80px;
+    }
+
+    .contant p {
+        color: #737373;
+        font-size: 16px;
+        line-height: 35px;
+        margin-top: -4px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+
+    h2 {
+        color: #000000;
+        font-size: 50px;
+        padding-bottom: 50px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .heading p {
+        font-size: 18px;
+        padding-bottom: 50px;
+        font-weight: 400;
+    }
+}

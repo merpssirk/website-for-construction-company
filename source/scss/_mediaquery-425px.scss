@@ -1,0 +1,118 @@
+/*== 425px Media Queries Styles ==*/
+
+@media screen and (max-width: 425px) {
+    header .social-icons ul > li:nth-child(1) {
+        display: none;
+    }
+    .jumbotron {
+        height: 410px;
+    }
+    .jumbotron h1 {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+    .jumbotron h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+        letter-spacing: 0.5px;
+    }
+    .jumbotron p {
+        width: 100%;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+    }
+    .about .btn-warning {
+        padding: 8px 10px;
+    }
+    .about .figure-img {
+        height: 200px;
+    }
+    .accordion .card-header a {
+        font-size: 14px;
+        color: #5c5c5c;
+    }
+    .accordion p {
+        font-size: 12px;
+    }
+    .support .heading h3 {
+        font-size: 14px;
+    }
+    .support .form-control,
+    .support select {
+        margin-bottom: 10px;
+    }
+    .form-group {
+        margin-bottom: 0;
+    }
+    .subscribe .form-inline .form-control {
+        margin-bottom: 10px;
+    }
+    .section-2 figure img {
+        height: 200px;
+    }
+    .section-3 iframe,
+    .section-3 object,
+    .section-3 embed {
+        height: 200px;
+    }
+    header {
+        padding-bottom: 16px;
+    }
+    .navbar-toggler {
+        margin-top: -14px;
+    }
+    .sticky .navbar-toggler {
+        margin-top: 8px;
+        margin-right: 25px;
+    }
+    .sticky .navbar-brand img {
+        margin-top: 8px;
+    }
+    .subscribe .heading h2 {
+        font-size: 16px;
+    }
+    .support ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-size: 14px;
+    }
+
+    .support ::-moz-placeholder {
+        /* Firefox 19+ */
+        font-size: 14px;
+    }
+    .support ::-ms-input-placeholder {
+        /* IE 10+ */
+        font-size: 14px;
+    }
+
+    .support ::-moz-placeholder {
+        /* Firefox 18- */
+        font-size: 14px;
+    }
+    .banner .buttons {
+        text-align: center;
+    }
+    .banner h1 {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .about-us .image {
+        height: 200px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    #contact-page input {
+        margin-bottom: 10px;
+    }
+    #contact-page .btn-default {
+        padding: 10px 30px;
+    }
+    .support-Page p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+    .support-Page .form-group {
+        margin-bottom: 10px;
+    }
+}

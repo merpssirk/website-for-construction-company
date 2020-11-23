@@ -1,0 +1,122 @@
+/*==============================
+      // About-Landing-page //
+==============================*/
+
+/* Banner setion coding started */
+
+.banner {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-image: url("/img/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    .buttons {
+        text-align: right;
+    }
+    .btn-warning {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        background-color: #2d720d;;
+        border-color: #ffc107;
+        border-radius: 50px;
+        padding: 10px 20px;
+        margin-right: 15px;
+        text-transform: uppercase;
+        border: 2px solid #ffc107;
+
+        &:hover {
+            border: 2px solid #ffffff;
+            background-color: transparent;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        &:not(:disabled):not(.disabled):active:focus {
+            box-shadow: none;
+        } 
+    }
+    .btn-primary {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        background-color: #ffffff;
+        border-color: #ffc107;
+        border-radius: 50px;
+        padding: 10px 20px;
+        margin-right: 15px;
+        text-transform: uppercase;
+        border: 2px solid #ffffff;
+
+        &:hover {
+            border: 2px solid #ffffff;
+            background-color: transparent;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        &:not(:disabled):not(.disabled):active:focus {
+            box-shadow: none;
+        }
+    }
+
+    h1 {
+        color: #ffffff;
+        font-size: 44px;
+        text-transform: capitalize;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-family: 'Changa One', cursive;
+    }
+}
+/*==============================
+// About Section coding started//
+==============================*/
+
+.about-us {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+
+
+    h3 {
+        color: #000000;
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 0;
+        color: #969696;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        font-weight: 500;
+        margin-bottom: 200px;
+    }
+
+    .image {
+        float: left;
+        width: 478px;
+        height: 500px;
+        shape-margin: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    .thumbnail {
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        object-fit: cover;
+    }
+}

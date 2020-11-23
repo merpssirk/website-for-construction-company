@@ -1,0 +1,175 @@
+/*== 768px Media Queries Styles ==*/
+
+@media screen and (max-width: 768px) {
+    header .social-icons ul > li:nth-child(1) { /* This code for email address */
+        display: none;     
+    }
+    .jumbotron {
+        height: 450px;
+    }
+    .hidden {
+        display: none;
+    }
+    .services .card .card-block h3:before {
+        padding: 0;
+    }
+    .services {
+        margin-bottom: 10px;
+    }
+    .about .figure-img {
+        height: 200px;
+        padding: 0;
+    }
+    .about .box-1 {
+        display: none;
+    }
+    .section-2 .figure {
+        display: block;
+    }
+    .about .right-side {
+        padding-left: 15px;
+    }
+    .section-2 .figure-img {
+        height: 200px;
+    }
+    .section-2 .card {
+        margin-bottom: 20px;
+    }
+    .accordion .card-header a {
+        font-size: 16px;
+    }
+    .section-3 iframe,
+    .section-3 object,
+    .section-3 embed {
+        height: 200px;
+    }
+    .subscribe .heading h2 {
+        font-size: 20px;
+    }
+    .subscribe .form-inline .form-control {
+        padding: 8px 15px;
+    }
+    .section-3 .content {
+        position: initial;
+        bottom: 0;
+    }
+    footer img {
+        padding-bottom: 10px;
+    }
+    footer p span {
+        display: inline-block;
+    }
+    .subscribe .sub-hidden {
+        display: none;
+    }
+    .subscribe .form-inline .btn-primary {
+        width: 100%;
+        padding: 7px 30px;
+    }
+    .section-2 {
+        padding-bottom: 20px;
+    }
+    .about-middle {
+        border: none;
+    }
+    .about h4 {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .about h3 {
+        font-size: 22px;
+    }
+    .about .btn-warning {
+        margin: 0;
+    }
+    .section-3 P {
+        font-size: 12px;
+    }
+    .section-3 {
+        padding: 30px 0;
+    }
+    .jumbotron h1 {
+        padding-top: 20px;
+    }
+    .jumbotron h2 {
+        padding-bottom: 5px;
+    }
+    .jumbotron p {
+        padding-bottom: 5px;
+    }
+    .support .heading h2 {
+        font-size: 22px;
+    }
+    .support .heading h3 {
+        font-size: 18px;
+    }
+    .support .form-control,
+    .support select {
+        margin-bottom: 0;
+    }
+    .support .btn-primary {
+        height: 45px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    footer h5 {
+        padding-bottom: 15px;
+    }
+    .navbar-nav {
+        padding-left: 20px;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+    .navbar-toggler {
+        padding: 1px 6px;
+        font-size: 16px;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 0;
+    }
+    .banner h1 {
+        font-size: 34px;
+    }
+    .about-us .image {
+        width: 100%;
+        height: 250px;
+    }
+    .about-us h3 {
+        font-size: 22px;
+    }
+    .about-us p {
+        margin-bottom: 50px;
+    }
+    #contact-page .map {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    #services .career-img {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    #services .main-content {
+        padding-bottom: 30px;
+    }
+    #services .contant p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        padding-bottom: 0;
+    }
+    #services h3 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #services h2 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    #services .heading p {
+        font-size: 14px;
+    }
+}

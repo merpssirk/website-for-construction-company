@@ -1,0 +1,50 @@
+/*==========================
+         section-2 
+===========================*/
+
+.section-2 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    border-bottom: 1px solid lightgray;
+
+    .accordion .card-header {
+        padding: 20px 20px;
+        background-color: transparent;
+
+        &:after {
+            font-family: 'FontAwesome';
+            content: "\f068";
+            float: right;
+        }
+        &.collapsed:after {
+            /* symbol for "collapsed" panels */
+            content: "\f067";
+        }
+        a {
+            color: #9d9d9d;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        
+        
+    }
+    .accordion p {
+        color: #9d9d9d;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .accordion .card-body {
+        padding-bottom: 0;
+    }
+    .figure-img {
+        width: 100%;
+        height: 475px;
+        object-fit: cover;
+
+        &:hover {
+            height: 575px;
+        }
+    }
+}

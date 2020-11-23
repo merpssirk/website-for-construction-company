@@ -1,0 +1,54 @@
+/*==========================
+        Support-Landing-Page
+===========================*/
+
+.support-Page {
+    padding-top: 60px;
+    padding-bottom: 300px;
+    border-bottom: 1px solid gray;
+    background-color: #ffffff;
+}
+
+.support-Page h2 {
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: -4px;
+    font-size: 50px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.support-Page p {
+    color: #8d8d8d;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.support-Page .btn,
+.support-Page .btn-primary:not(:disabled):not(.disabled):active {
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 152px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #000000;
+    border-radius: 0;
+}
+
+.support-Page .form-control {
+    background: white;
+    border-radius: 0;
+    height: 58px;
+}
+
+.support-Page .btn:hover {
+    color: #000;
+    background-color: green;
+    border-color: #f7da17;
+}
+
+.support-Page .form-group {
+    margin-bottom: 30px;
+}

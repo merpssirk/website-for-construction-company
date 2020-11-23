@@ -1,0 +1,123 @@
+//VERY TOP HEADER PART CODING STARTED
+header {
+    color: #000000;
+    background-color: #2b7a39;
+    transition: all 0.5s;
+    position: relative;
+
+    .social-icons ul > li:nth-child(1) { /* This code for email address */
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.9px;
+        font-style: italic;
+        padding-right: 10px;
+       
+    }
+    
+    .social-icons ul > li:nth-child(2) { /* this code for top black block */
+        background: black;
+        color: #ffffff;
+        padding: 12px 0;
+        font-size: 16px;
+        margin: 0 44px;
+        position: relative;
+    }
+
+    .social-icons ul > li:nth-child(2):after { /* this is for black block's right edge */
+        border-top: 80px solid #050505;
+        border-left: 0 solid transparent;
+        border-right: 65px solid transparent;
+        bottom: 0px;
+        content: "";
+        position: absolute;
+        right: -65px;
+        width: 0;
+        height: 0;
+    }
+
+    .social-icons ul > li:nth-child(2):before { /* this is for black block's left edge */
+        border-top: 62px solid #080707;
+        border-left: 0 solid transparent;
+        border-right: 62px solid transparent;
+        bottom: 0px;
+        content: "";
+        left: -62px;
+        position: absolute;
+        width: 0;
+        height: 0;
+        transform: rotate(180deg);
+    }
+
+}
+
+/* header:before {
+    background-image: url("/img/header-border.png");
+    background-repeat: no-repeat;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 32px;
+} */
+
+//VERY TOP HEADER PART CODING ENDED
+
+
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.btn-success.focus,
+.btn-success:focus {
+    box-shadow: none;
+}
+
+nav {
+    background-color: #3c8348 !important;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1607843137254902);
+    transition: all 0.5s;
+
+    .navbar-brand img {
+        width: 125px;
+        height: 75px; 
+        transition: all 0.5s;
+    }
+    .navbar-brand img:hover {
+        width: 200px;
+        height: 150px;
+        
+    } 
+    .sticky-top {
+        transition: all 0.25s ease-in;
+    } 
+    
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .active > .nav-link {
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+}
+  
+.navbar-dark .navbar-nav .nav-link:hover {
+    font-size: 18px;
+    color: blanchedalmond;
+}
+
+.navbar {
+    padding: 0; 
+}
+
+.navbar-nav .nav-item:last-child {
+    border-right: 0;
+}
+

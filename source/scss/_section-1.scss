@@ -1,0 +1,117 @@
+//Section One
+
+.stuck .sticky-top {
+    background-color: #ffffff !important;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 850px;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url(/img/person-holding-grinder-1216544.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+    &:after {
+        background-image: url("/img/nav-border.png");
+        background-repeat: no-repeat;
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 32px;
+    }
+    p {
+        width: 70%;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 35px;
+        padding-bottom: 30px;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+    }
+    .btn-success,
+    .btn-success:not(:disabled):not(.disabled):active {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 0;
+        padding: 12px 20px;
+        margin-right: 20px;
+        letter-spacing: -0.5px;
+        background-color: #2d720d;
+        border-color: #f7da17;
+        border: 2px solid #f7da17;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+    .btn-default,
+    .btn-default:not(:disabled):not(.disabled):active {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 0;
+        padding: 12px 20px;
+        margin-right: 20px;
+        letter-spacing: -0.5px;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        border: 2px solid #ffffff;
+        text-transform: uppercase;
+        border-radius: 50px;
+    }
+    .btn-default:hover {
+        color: #fff;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+    }
+
+    .btn-success:hover {
+        color: #fff;
+        background-color: transparent;
+        border: 2px solid #9c9a8b;
+    }
+    h2 {
+        font-size: 50px;
+        padding-bottom: 30px;
+        color: #ffffff;
+        font-family: 'Changa One', cursive;
+    }
+    h1 {
+        font-size: 61px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        font-family: 'Changa One', cursive;
+        background-image: linear-gradient(to right, #7ed56f, #28b485);
+        color: transparent;
+        transition: all .2s;
+        display: inline-block;
+        -webkit-background-clip: text;
+    }
+    h1:hover {
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+    }
+    .gradient {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+    }
+
+    .content {
+        position: relative;
+        text-align: left;
+    }
+   
+}
+
+
+

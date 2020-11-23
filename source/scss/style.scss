@@ -1,0 +1,79 @@
+@import "scroll-to-top";
+@import "navbar";
+@import "section-1";
+@import "services";
+@import "about-us";
+@import "section-2";
+@import "section-3";
+@import "support";
+@import "subscribe-section";
+@import "about-landing-page";
+@import "contact-landing-page";
+@import "support-landing-page";
+@import "services-landing-page";
+@import "mediaquery-1024";
+@import "mediaquery-768";
+@import "mediaquery-425px";
+@import "mediaquery-375px";
+@import "mediaquery-320px";
+@import "reset";
+
+/* Utilities Styles */
+.hidden {
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 10px;
+    cursor: default;
+    color: yellow;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0px;
+    padding: 0px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    cursor: pointer;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+

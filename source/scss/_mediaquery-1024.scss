@@ -1,0 +1,277 @@
+/*=======================================
+          Media Queries CSS
+=======================================*/
+
+/*== 1440px Media Queries Styles ==*/
+
+@media screen and (max-width: 1440px) {
+
+    .jumbotron {
+        height: 540px;
+    }
+}
+
+/*== 1024px Media Queries Styles ==*/
+
+@media screen and (max-width: 1024px) {
+    header .social-icons ul > li:nth-child(1) { /* This code for email address */
+        display: none;   
+    }
+    header .social-icons ul > li:nth-child(2) {
+        padding: 5px 0;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+    header .social-icons ul > li:nth-child(2):before {
+        border-top: 41px solid #000000;
+        border-left: 0 solid transparent;
+        border-right: 47px solid transparent;
+        left: -47px;
+    }
+    /* .navbar-brand img {
+        width: 70%;
+        margin-top: -25px;
+        padding-bottom: 0;
+    } */
+     .navbar-brand img {
+        width: 125px;
+        height: 75px; 
+        transition: all 0.5s;
+    }
+    .sticky .navbar-brand img {
+        margin-top: 0;
+        width: 25%;
+        padding-bottom: 0;
+    }
+    
+    .hidden {
+        padding: 0 5px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+    .jumbotron h1 {
+        font-size: 42px;
+        letter-spacing: 1px;
+    }
+    .jumbotron h2 {
+        font-size: 36px;
+        letter-spacing: 0.5px;
+    }
+    .jumbotron p {
+        width: 70%;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .jumbotron .btn-default,
+    .jumbotron .btn-default:not(:disabled):not(.disabled):active,
+    .jumbotron .btn-success,
+    .jumbotron .btn-success:not(:disabled):not(.disabled):active {
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 0;
+        padding: 8px 10px;
+        letter-spacing: 0.5px;
+    }
+    .services .card-title {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    .services .card .card-block h3:before {
+        font-size: 30px;
+    }
+    .services .card p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    .services {
+        padding: 60px 0;
+    }
+    .about h4 {
+        padding-bottom: 20px;
+    }
+    .about h5 {
+        padding-bottom: 15px;
+    }
+    .about-middle {
+        padding: 20px 20px;
+    }
+    .about h3 {
+        font-size: 24px;
+    }
+    .about p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .about .btn-warning {
+        margin: 8px 0;
+    }
+    .about .box-1 {
+        top: 16%;
+        width: 25px;
+        height: 320px;
+    }
+    .about .figure-img {
+        height: 540px;
+    }
+    .accordion .card-header a {
+        font-size: 18px;
+    }
+    .accordion .card-header {
+        padding: 15px 20px;
+    }
+    .section-2 {
+        padding-bottom: 50px;
+    }
+    .about {
+        padding-bottom: 50px;
+    }
+    .services {
+        margin-bottom: 50px;
+    }
+    .section-3 {
+        padding: 50px 0;
+    }
+    .support .heading h2 {
+        font-size: 26px;
+    }
+    .support .heading h3 {
+        font-size: 22px;
+    }
+    .support .form-control {
+        height: 45px;
+    }
+    .support {
+        padding: 50px 0;
+    }
+    .subscribe {
+        padding: 50px 0;
+    }
+    footer {
+        padding: 30px 0;
+    }
+    .about .box-1 {
+        top: 20%;
+        width: 25px;
+        height: 354px;
+    }
+    .about-us p {
+        font-size: 12px;
+        margin-bottom: 100px;
+    }
+    .about-us h3 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .about-us .image {
+        width: 478px;
+        height: 373px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+    .banner .btn-warning {
+        padding: 8px 10px;
+        margin-right: 10px;
+    }
+    .banner .btn-primary {
+        padding: 8px 10px;
+    }
+    #contact-page .map {
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    #contact-page {
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    #contact-page p {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    #contact-page input {
+        height: 45px;
+    }
+    #contact-page ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-size: 12px;
+    }
+
+    #contact-page ::-moz-placeholder {
+        /* Firefox 19+ */
+        font-size: 12px;
+    }
+
+    #contact-page ::-ms-input-placeholder {
+        /* IE 10+ */
+        font-size: 12px;
+    }
+
+    #contact-page ::-moz-placeholder {
+        /* Firefox 18- */
+        font-size: 12px;
+    }
+    #contact-page textarea.form-control {
+        height: 150px;
+    }
+    #contact-page .btn-default {
+        font-size: 14px;
+        padding: 12px 50px;
+        letter-spacing: 0.5px;
+    }
+    .support-Page p {
+        font-size: 14px;
+    }
+    .support-Page {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    .support-Page .form-control {
+        height: 45px;
+    }
+    .support-Page .form-group {
+        margin-bottom: 20px;
+    }
+    .support-Page .btn,
+    .btn-primary:not(:disabled):not(.disabled):active {
+        height: 46px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    #services h2 {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    #services h3 {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+    #services .contant p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    #services .heading p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    #services .main-content {
+        padding-bottom: 50px;
+    }
+    #services .career-img {
+        width: 100%;
+        height: 300px;
+    }
+    #services {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+}

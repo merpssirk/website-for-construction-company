@@ -1,0 +1,29 @@
+{
+  "name": "construction-company-website-sass-practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live": "live-server",
+    "sass": "node-sass -w source/scss -o output/css",
+    "scss-watch": "watch 'npm run scss-compile' source/styles",
+    "scss-compile": "node-sass source/styles/styles.scss > styles/styles.css",
+    "sass-lint": "sass-lint -c sass-lint.yaml 'source/styles/**/*.scss' -v -q"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "node": "^14.5.0",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "sass": "^1.26.10",
+    "sass-lint": "^1.13.1",
+    "scss-compile": "^0.1.7",
+    "scss-watch": "^1.0.1"
+  }
+}

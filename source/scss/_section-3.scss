@@ -1,0 +1,56 @@
+/*========================
+        Section-3
+=========================*/
+
+.section-3 {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+
+    P {
+        color: #adadad;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .btn-info:not(:disabled):not(.disabled):active:focus {
+        box-shadow: none;
+    }
+    .btn-info,
+    .btn-info:not(:disabled):not(.disabled):active {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 10px 20px;
+        letter-spacing: 0.5px;
+        background-color: #2d720d;
+        border-color: #ffaf00;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .vid {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        border: none;
+    }
+    iframe,
+    object,
+    embed {
+        width: 100%;
+        height: 420px;
+        border: none;
+    }
+    .content {
+        position: absolute;
+        bottom: 12%;
+
+        p:nth-child(2) {
+            padding-bottom: 20px;
+        }
+        
+    }
+}

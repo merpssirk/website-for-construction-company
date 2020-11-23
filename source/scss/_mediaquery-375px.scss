@@ -1,0 +1,36 @@
+
+/*== 375px Media Queries Styles ==*/
+
+@media screen and (max-width: 375px) {
+    .jumbotron .btn-default,
+    .jumbotron .btn-default:not(:disabled):not(.disabled):active,
+    .jumbotron .btn-success,
+    .jumbotron .btn-success:not(:disabled):not(.disabled):active {
+        margin-right: 5px;
+    }
+    .jumbotron .btn-default,
+    .jumbotron .btn-default:not(:disabled):not(.disabled):active,
+    .jumbotron .btn-success,
+    .jumbotron .btn-success:not(:disabled):not(.disabled):active {
+        padding: 8px 8px;
+        letter-spacing: 0;
+    }
+    .jumbotron p {
+        line-height: 20px;
+    }
+    .subscribe ::placeholder {
+        font-size: 12px;
+    }
+
+    .subscribe :-moz-placeholder {
+        font-size: 12px;
+    }
+
+    .subscribe :-ms-input-placeholder {
+        font-size: 12px;
+    }
+
+    .subscribe ::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+}
